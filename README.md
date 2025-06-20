@@ -43,17 +43,19 @@ This project focuses on creating fact and dimension tables that will be optimize
 
 ## Steps to Run the Project
 
-1. Install dependencies:  
+1. **Install dependencies:**  
 ```pip install -r requirements.txt```
 
-2. Set up database: Run the following to create the PostgreSQL tables:
+2. **Set up database:** 
+
+    Run the following to create the PostgreSQL tables:
     
    - In terminal:  
    ```python create_tables.py```
    - In Jupyter Notebooks:  
    ```!python create_tables.p```
 
-3. Run ETL pipeline: 
+3. **Run ETL pipeline:** 
 
     Follow the ETL process in `etl.ipynb` for step-by-step instructions on processing the song and log files.
 
@@ -63,7 +65,7 @@ This project focuses on creating fact and dimension tables that will be optimize
    - In Jupyter Notebooks:  
    ```!python etl.py```
 
-4. Verify your data:
+4. **Verify your data:**
 
     Run `test.ipynb` to check that the data has been correctly loaded into the database.
 
