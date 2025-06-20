@@ -1,10 +1,11 @@
 *
 !.gitignore
+!README.md
 !create_tables.py
 !etl.ipynb
 !etl.py
-!README.md
 !sql_queries.py
 !test.ipynb
 !data/
 !data/**
+!requirements.txt
