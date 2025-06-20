@@ -57,6 +57,7 @@ This project focuses on creating fact and dimension tables that will be optimize
    - In Jupyter Notebooks: ```!python etl.py```
 
 3. Verify your data:
-Run `test.ipynb` to check that the data has been correctly loaded into the database.
+
+    Run `test.ipynb` to check that the data has been correctly loaded into the database.
 
 
