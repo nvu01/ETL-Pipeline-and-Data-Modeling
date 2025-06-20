@@ -35,28 +35,35 @@ This project focuses on creating fact and dimension tables that will be optimize
 ## Project Files
 
 1. `create_tables.py`: Contains SQL DROP and CREATE statements to reset the database tables before each ETL run.
-2. `etl.py`: automates the ETL process by reading and processing the song and log data files. 
+2. `etl.py`: Automates the ETL process by reading and processing the song and log data files. 
 3. `etl.ipynb`: A step-by-step guide for processing individual files. 
 4. `sql_queries.py`: Contains the SQL queries for interacting with the database. 
 5. `test.ipynb`: Verifies that the data was loaded correctly by displaying the first few rows of the tables. It also includes sanity tests to check for common issues in the database schema, data loading process, and query results.
-
+6. `requirements.txt`: Includes required Python packages for the project
 
 ## Steps to Run the Project
 
-1. Set Up Database: Run the following to create the PostgreSQL tables:
-    
-   - In terminal: ```python create_tables.py```
-   - In Jupyter Notebooks: ```!python create_tables.p```
+1. Install dependencies:  
+```pip install -r requirements.txt```
 
-2. Run ETL pipeline: 
+2. Set up database: Run the following to create the PostgreSQL tables:
+    
+   - In terminal:  
+   ```python create_tables.py```
+   - In Jupyter Notebooks:  
+   ```!python create_tables.p```
+
+3. Run ETL pipeline: 
 
     Follow the ETL process in `etl.ipynb` for step-by-step instructions on processing the song and log files.
 
     Alternatively, you can run the full ETL pipeline using `etl.py`.
-   - In terminal: ```python etl.py```
-   - In Jupyter Notebooks: ```!python etl.py```
+   - In terminal:  
+   ```python etl.py```
+   - In Jupyter Notebooks:  
+   ```!python etl.py```
 
-3. Verify your data:
+4. Verify your data:
 
     Run `test.ipynb` to check that the data has been correctly loaded into the database.
 
