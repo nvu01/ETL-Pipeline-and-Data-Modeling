@@ -1,4 +1,4 @@
-# Sparkify - Data Modeling with Postgres and Python
+# Sparkify - ETL Pipeline & Data Modeling with SQL and Python
 
 This project involves the creation of an ETL pipeline and data modeling for a song play analysis. 
 The goal is to design and implement a star schema in a PostgreSQL database, ingest data from song and log datasets (in JSON format), and process them using Python and SQL. 
